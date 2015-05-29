@@ -1,0 +1,95 @@
+body {
+  background: url("img/congruent_pentagon.png") repeat center center fixed;
+}
+
+p {
+  font-family: century gothic;
+  color: #ff5bb0;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.form_font {
+  color: #ff5b5e;
+  font-size: 16px;
+}
+
+#sentence, #wordFind, #wordReplace {
+    background-color: white;
+    color: #ff5b5e;
+}
+
+input, textarea {
+    background-color: white;
+    color: #ff5b5e;
+}
+
+#new_sentence {
+  color: #ff5bb0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#submit_button {
+	-moz-box-shadow:inset 0px 0px 0px -43px #fbafe3;
+	-webkit-box-shadow:inset 0px 0px 0px -43px #fbafe3;
+	box-shadow:inset 0px 0px 0px -43px #fbafe3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d));
+	background:-moz-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:-webkit-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:-o-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:-ms-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d',GradientType=0);
+	background-color:#ff5bb0;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:century gothic;
+	font-size:16px;
+	font-weight:;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+#submit_button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0));
+	background:-moz-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:-webkit-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:-o-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:-ms-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0',GradientType=0);
+	background-color:#ef027d;
+}
+#submit_button:active {
+	position:relative;
+	top:1px;
+}
+
+section {
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #ff5b5e;
+  color: white;
+  font-family: century gothic;
+}
+
+.style-1 input[type="text"] {
+  padding: 20px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  width: 1000px;
+}
+
+.style-2 input[type="text"],
+.style-2 input[type="text"] {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+  padding: 20px;
+  width: 500px;
+}
