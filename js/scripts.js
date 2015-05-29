@@ -1,8 +1,6 @@
 var findReplace = function(sentence, findWord, replaceWord) {
-  // debugger;
   var splitString = sentence.split(" ");
-  // var re = /\w+/g;
-  var re = /[\w+\s?,.!""]/g;
+  var re = /[\w+\s?,.!""]/ig;
 
   for(var i=0; i < splitString.length; i++) {
     if(splitString[i] === findWord) {
@@ -14,23 +12,36 @@ var findReplace = function(sentence, findWord, replaceWord) {
   return sentence;
 };
 
+$(document).ready(function(){
+  $("#findReplace").submit(function(event) {
+    var sentence = $("input#sentence").val();
+    var findWord = $("input#wordFind").val();
+    var replaceWord = $("input#wordReplace").val();
+    var result = findReplace(sentence, findWord, replaceWord);
 
-var stringSplit = function(sentence) {
-  return sentence.split(" ");
-};
+    $(".result").text(result);
+    $("#result").show();
+    event.preventDefault();
+  });
+});
 
-var wordMatch = function(word) {
-  if (word === word) {
-    return word;
-  }
-};
 
-var findWord = function(sentence, word) {
-  var splitString = sentence.split(" ");
-
-  for(var i=0; i < splitString.length; i++ ) {
-    if(splitString[i] === word) {
-    }
-  }
-  return word;
-};
+// var stringSplit = function(sentence) {
+//   return sentence.split(" ");
+// };
+//
+// var wordMatch = function(word) {
+//   if (word === word) {
+//     return word;
+//   }
+// };
+//
+// var findWord = function(sentence, word) {
+//   var splitString = sentence.split(" ");
+//
+//   for(var i=0; i < splitString.length; i++ ) {
+//     if(splitString[i] === word) {
+//     }
+//   }
+//   return word;
+// };
