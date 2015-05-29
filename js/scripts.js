@@ -1,19 +1,20 @@
 var stringSplit = function(sentence) {
-  return sentence.split(" ")
+  return sentence.split(" ");
 };
 
 var wordMatch = function(word) {
   if (word === word) {
-    return word
-  };
+    return word;
+  }
 };
 
-// var findWord = function(sentence) {
-//   var sentenceArray = []
-//   sentence.split(" ");
-//     for(var i=0; i < sentence.length; i++) {
-//       if(sentence[i] === " ") {
-//         return i
-//       };
-//     };
-// };
+var findWord = function(sentence, word) {
+  // debugger;
+  var splitString = sentence.split(" ");
+
+  for(var i=0; i < splitString.length; i++ ) {
+    if(splitString[i] === word) {
+    }
+  }
+  return word;
+};

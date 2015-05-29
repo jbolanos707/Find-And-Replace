@@ -10,8 +10,8 @@ describe("wordMatch", function() {
   });
 });
 
-// describe("findWord", function() {
-//   it("will find and return matching word in the sentence array", function() {
-//     expect(findWord(["hat"])).to.eql(["hat"])
-//   });
-// });
+describe("findWord", function() {
+  it("will find matching word in the sentence array", function() {
+    expect(findWord("cat in the hat", "hat")).to.eql("hat")
+  });
+});
