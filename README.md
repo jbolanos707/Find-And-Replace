@@ -1,7 +1,5 @@
 # Find-And-Replace
 
-## Find And Replace
-
 <a href="APP LINK IF APPLICABLE" target="#"><APP LINK NAME></a>
 
 By Jennifer Bolanos (<a href=https://github.com/jbolanos707/Band_Tracker.git target="#">GitHub</a>)
@@ -12,9 +10,7 @@ GNU General Public License, version 3 (see below). Copyright (c) 2015 Jennifer B
 
 ### Description
 
-Find and Replace
-
-A simple app that allows you to replace words in a sentence.
+Find and Replace is a simple app that allows you to replace words in a sentence.
 
 ### Author(s)
 
