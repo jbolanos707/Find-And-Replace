@@ -26,6 +26,9 @@ $(document).ready(function(){
 });
 
 
+
+// start of code
+
 // var stringSplit = function(sentence) {
 //   return sentence.split(" ");
 // };

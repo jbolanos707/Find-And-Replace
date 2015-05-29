@@ -10,11 +10,10 @@ describe("findReplace", function() {
   it("will ignore punctuation", function() {
     expect(findReplace("cat in the hat!", "cat", "dog")).to.equal("dog in the hat!");
   });
-
-  it("will match word casing in the sentence", function() {
-    expect(findReplace("Cat in the hat", "cat", "dog")).to.equal("Dog in the hat");
-  });
 });
+
+
+// Beginning specs
 
 // describe("stringSplit", function() {
 //   it("will return the string as an array of words", function() {

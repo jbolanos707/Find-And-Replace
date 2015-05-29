@@ -9,32 +9,49 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center page-header">Find and Replace</h1>
+      <p class="text-center page-header">FIND AND REPLACE</p>
 
-      <form id="findReplace">
+    <form id="findReplace">
+
+    <section>
+      <h2>Phrase</h2>
+      <ul class="input-list style-1 clearfix">
+          <input type="text" id="sentence" placeholder="Enter A Sentence">
+      </ul>
+    </section>
+
+    <section>
+      <h2>Magic Words</h2>
+      <ul class="input-list style-2 clearfix">
+          <input type="text" id="wordFind" placeholder="Word To Be Replaced">
+          <input type="text" id="wordReplace" placeholder="Substiture Word">
+    </section>
+
+    <button name="submit" type="submit" class="btn btn-success" id="submit_button">Find and Replace</button>
+    </form>
+  <br>
+
+  <div id="result">
+    <p class="lead">
+    <span class="result" id="new_sentence"></span>
+    </p>
+  </div>
+
+  </div>
+</body>
+</html>
+
+<!-- bootstrap form code -->
+      <!-- <form id="findReplace">
         <div class="form-group">
-          <label for="number">Enter A Sentence</label>
+          <label for="sentence" class="form_font">Enter A Sentence</label>
           <input type="text" name="sentence" id="sentence" class="form-control">
         </div>
         <div class="form-group">
-          <label for="number">Enter The Word You Would Like To Replace</label>
+          <label for="wordFind" class="form_font">Enter The Word You Would Like To Replace</label>
           <input type="text" name="wordFind" id="wordFind" class="form-control">
         </div>
         <div class="form-group">
-          <label for="number">Enter Substitute For Your Word</label>
+          <label for="wordReplace" class="form_font">Enter Substitute For Your Word</label>
           <input type="text" name="wordReplace" id="wordReplace" class="form-control">
-        </div>
-
-      <button name="submit" type="submit" class="btn btn-success">Find and Replace</button>
-      </form>
-    <br>
-
-    <div id="result">
-      <p class="lead">
-      <span class="result"></span>
-      </p>
-    </div>
-
-    </div>
-  </body>
-</html>
+        </div> -->
