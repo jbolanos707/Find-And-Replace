@@ -1,7 +1,8 @@
 var findReplace = function(sentence, findWord, replaceWord) {
   // debugger;
   var splitString = sentence.split(" ");
-  var re = /\w+/g;
+  // var re = /\w+/g;
+  var re = /[\w+\s?,.!""]/g;
 
   for(var i=0; i < splitString.length; i++) {
     if(splitString[i] === findWord) {

@@ -7,7 +7,11 @@ describe("findReplace", function() {
     expect(findReplace("cat in the cat hat","cat", "dog")).to.equal("dog in the dog hat");
   });
 
-  
+  it("will ignore punctuation", function() {
+    expect(findReplace("cat in the hat!","cat", "dog")).to.equal("dog in the hat!");
+  });
+
+
 
 });
 
