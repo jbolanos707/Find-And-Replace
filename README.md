@@ -2,7 +2,7 @@
 
 <a href="APP LINK IF APPLICABLE" target="#"><APP LINK NAME></a>
 
-By Jennifer Bolanos (<a href=https://github.com/jbolanos707/Band_Tracker.git target="#">GitHub</a>)
+By Jennifer Bolanos (<a href=https://github.com/jbolanos707/Find-And-Replace.git target="#">GitHub</a>)
 
 @ Epicodus Programming School, Portland, OR
 
